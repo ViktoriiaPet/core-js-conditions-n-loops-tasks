@@ -422,8 +422,8 @@ function sortByAsc(/* arr */) {
  *  '012345', 3 => '024135' => '043215' => '031425'
  *  'qwerty', 3 => 'qetwry' => 'qtrewy' => 'qrwtey'
  */
-function shuffleChar(str, iterations) {
-  let nech = '';
+function shuffleChar(/* str, iterations */) {
+  /* let nech = '';
   let ch = '';
   let newStr = str;
   let newIterations = iterations;
@@ -439,7 +439,8 @@ function shuffleChar(str, iterations) {
     newStr = ch + nech;
     newIterations -= 1;
   }
-  return newStr;
+  return newStr; */
+  throw new Error('Not implemented');
 }
 
 /**
